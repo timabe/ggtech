@@ -16,7 +16,7 @@ scale_fill_tech <- function(theme="airbnb", tech_key = list(
                   google = c("#5380E4", "#E12A3C", "#FFBF03", "#00B723"),
                   etsy = c("#F14000", "#67B6C3", "#F0DA47", "#EBEBE6", "#D0D0CB"),
                   twitter = c("#55ACEE", "#292f33", "#8899a6", "#e1e8ed"),
-                  ando = c("#D9AC7F", "#F7323F", "#000000", "#FFFFFF","#E51933","#444444", "#F2F2F2")
+                  ando = c("#D9AC7F", "#F7323F", "#444444", "#FFFFFF","#E51933","#F2F2F2", "#000000")
                     )) {
   
   scale_fill_manual(values=tech_key[[theme]])
