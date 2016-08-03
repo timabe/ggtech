@@ -183,6 +183,15 @@ download.file("https://dl.dropboxusercontent.com/u/2364714/airbnb_ttf_fonts/Circ
 
 download.file("https://dl.dropboxusercontent.com/u/2364714/airbnb_ttf_fonts/Circular%20Air-Bold%203.46.45%20PM.ttf", "/Library/Fonts/Circular Air-Bold 3.46.45 PM.ttf", method="curl")
 
+download.file("https://www.dropbox.com/sh/2156fxhf5t43nbe/AAC062NgDCaAPZ1RNhrc9l51a/circularstd-bold.ttf?dl=0",
+"/Library/Fonts/Circular Ando-Bold.tff", method="curl")
+
+download.file("https://www.dropbox.com/sh/2156fxhf5t43nbe/AAAoJkV5DB3C5-rwpq7SFhDUa/CircularStd-Book.ttf?dl=0",
+"/Library/Fonts/Circular Ando-Book.tff", method="curl")
+
+download.file("https://www.dropbox.com/sh/2156fxhf5t43nbe/AAC64tg4sijObd-nqjoE4yrsa/circularstd-medium.ttf?dl=0",
+"/Library/Fonts/Circular Ando-Medium.tff", method="curl")
+
 font_import(pattern = 'Circular', prompt=FALSE)
 
 
@@ -199,4 +208,10 @@ download.file("http://social-fonts.com/assets/fonts/arista-light/arista-light.tt
 
 font_import(pattern = 'pico-black.ttf', prompt=FALSE)
 font_import(pattern = 'arista-light.ttf', prompt=FALSE)
+
+## Ando
+download.file("https://www.dropbox.com/sh/yofdf3ymm8zgsef/AABhDQUCVFr05fbYyWluCLPha/ReplicaMono.otf?dl=0",
+"/Library/Fonts/ReplicaMono.otf", method="curl")
+
+font_import(pattern = "ReplicaMono.otf", prompt=FALSE)
 ```
