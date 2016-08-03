@@ -36,8 +36,8 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     , colour_title = "#5380E4"
                     , colour_text = "black"),
                   ando = list(
-                    family_title="."
-                    , family_text = "."
+                    family_title="CircularStdBoldRegular"
+                    , family_text = "CircularStdMediumRegular"
                     , colour_title = "#444444"
                     , colour_text = "#000000")
                     )) {
