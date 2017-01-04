@@ -39,7 +39,12 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     family_title="CircularStdBoldRegular"
                     , family_text = "CircularStdMediumRegular"
                     , colour_title = "#444444"
-                    , colour_text = "#000000")
+                    , colour_text = "#000000"),
+                  blog = list(
+                    family_title="CrimsonText-Bold"
+                    , family_text = "CrimsonText-Roman",
+                    , colour_title = "#47423c",
+                    , colour_text = "#6F6C6C")
                     )) {
 
   theme_classic() + 
