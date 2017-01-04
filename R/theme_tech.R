@@ -42,8 +42,8 @@ theme_tech <- function(theme="airbnb", tech_key = list(
                     , colour_text = "#000000"),
                   blog = list(
                     family_title="CrimsonText-Bold"
-                    , family_text = "CrimsonText-Roman",
-                    , colour_title = "#47423c",
+                    , family_text = "CrimsonText-Roman"
+                    , colour_title = "#47423c"
                     , colour_text = "#6F6C6C")
                     )) {
 
